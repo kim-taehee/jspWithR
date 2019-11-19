@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    left: 20px;
+    font-family: arial;
+    min-width: 1400px;
+    font-family: 'Malgun Gothic';
+}
+
+nav {
+	padding: 10px 0 0 0;
+	position: absolute;
+    text-align: right;
+    font-size: 15px;
+    height: 40px;
+    right: 40px;
+    min-width: 1400px;
+    color: #0e4194;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: midnightblue;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    color: #0e4194;
+    height: 50px;
+    padding: 50px 0px 120px 0px;
+    
+}
+
+.button {
+    width: 100%;
+    height: 80px;
+    padding: 15px 0px 100px 0px;
+
+}
+
+.button > .btn {
+    position: relative;
+    right: 30px;
+    background-color: #e4e4e4;
+    border: none;
+    color: #666666;
+    cursor: pointer;
+    float: right;
+    height: 42px;
+    width: 130px;
+    border-radius: 4px;
+   	padding: 14px 20px;
+    margin: 8px 0;
+}
+
+/* Darker background on mouse-over */
+.button > .btn:hover {
+    background-color: dodgerBlue;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flex-container > div {
+    min-width: 500px;
+	max-width: 500px;
+    margin: 5px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+input[type="text"] {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    display: inline-block;   
+}
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+}
+
+
+.part-search {
+    position: relative;
+}
+
+.part-search input[type="text"]:focus {
+    color: dodgerBlue;
+}
+
+#bfile {
+    position: absolute;
+    width: 0;
+}
+
+#efile {
+    position: absolute;
+    width: 0;
+}
+
+#Request {
+    position: relative;
+    left: 5px;
+    background-color: #e4e4e4;
+    color: #666666;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    height: 42px;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+#Request:hover {
+    background-color: dodgerBlue;
+    color: white;
+}
+
+footer {
+    min-width: 1500px;
+    text-align: center;
+    font-size: 0.875em;
+}
+
+
+
+
+
+
+
+
+
+
